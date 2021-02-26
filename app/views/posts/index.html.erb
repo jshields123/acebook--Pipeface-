@@ -1,8 +1,14 @@
-<% @posts.reverse.each do |post| %>
-  <h3><%= post.message.gsub(/\n/, '<br/>').html_safe %></h3>
-  <p>created @ <%= post.created_at.strftime('%d/%m/%y') %></p>
-<% end %>
+<div style="padding: 20px;">
+  <% @posts.reverse.each do |post| %>
+  <div style="border: outset; margin-bottom: 2px; background-color:green;">
+    <h3><%= post.message.gsub(/\n/, '<br/>').html_safe %></h3>
+    <p>created @ <%= post.created_at.strftime('%d/%m/%y') %></p>
+  </div>
+  <% end %>
+</div>
 
-<%= link_to new_post_path do %>
-  New post
-<% end %>
+<div style="padding:10px;">
+  <%= link_to new_post_path do %>
+    New post
+  <% end %>
+</div>
