@@ -39,9 +39,7 @@
 
       <strong>Comment:</strong>
       <%= comment.body %>
-      <% if current_user.id == comment.user_id %>
-        <%= link_to "Delete", post_comment_path(comment.post, comment), method: :delete, data: { confirm: "Are you sure?" }%>
-      <%end%>
+      <%= link_to "Delete", post_comment_path(comment.post, comment), method: :delete, data: { confirm: "Are you sure?" }%>
     </p>
   <% end %>
 
