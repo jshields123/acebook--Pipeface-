@@ -76,3 +76,11 @@ Team notes
 * Try not to copy paste 
 * Make sure you are working on a not deleted branch - COMMUNICATION GUYS
 * Improve CSS on our app
+
+### Day 9
+* Learned not to mess with Bootstrap.min
+* Git bisect
+* Git show
+* Very nice CSS that is not there anymore
+* ps -a to check the open servers
+* kill -9 (PID) to kill spesific server
