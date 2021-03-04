@@ -11,6 +11,6 @@ RSpec.feature 'Navigated to posts after signing in' do
     fill_in :email, with: 'example@example.com'
     fill_in :password, with: 'password'
     click_button 'Log in'
-    expect(page).to have_content 'New post'
+    expect(page).to have_content 'New Post'
   end
 end

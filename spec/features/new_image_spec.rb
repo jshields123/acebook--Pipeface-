@@ -4,7 +4,7 @@ include WelcomeHelper
 RSpec.feature 'A user can post an image' do
   scenario 'Posts shows the image if added' do
     sign_up
-    click_link 'New post'
+    click_link 'New Post'
     fill_in 'Message', with: 'Hello, world!'
     attach_file('post[image]', 'spec/image/download.jpeg')
     click_button 'Submit'
