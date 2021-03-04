@@ -9,7 +9,6 @@ end
 
 gem 'bootsnap'
 
-gem "bootstrap_form", "~> 4.0"
 
 gem 'rubocop'
 

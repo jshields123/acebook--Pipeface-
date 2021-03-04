@@ -3139,7 +3139,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-range: :-webkit-slider-thumb {
+    .custom-range::-webkit-slider-thumb {
     -webkit-transition: none;
     transition: none;
 }
@@ -3167,7 +3167,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-range: :-moz-range-thumb {
+    .custom-range::-moz-range-thumb {
     -moz-transition: none;
     transition: none;
 }
@@ -3197,7 +3197,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     appearance: none;
 }
 @media (prefers-reduced-motion:reduce) {
-    .custom-range: :-ms-thumb {
+    .custom-range::-ms-thumb {
     -ms-transition: none;
     transition: none;
 }

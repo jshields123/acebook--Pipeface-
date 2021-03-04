@@ -30,7 +30,7 @@ ul {
 p {
   font-family: 'DotGothic16', sans-serif;
   color: black;
-  font-size:
+
 }
 .navbar-brand {
   font-family: 'DotGothic16', sans-serif;
@@ -50,7 +50,7 @@ p {
 text-align: center;
 flex-direction: column;
 margin: 0 auto;
-border-radius: 5%; */
+border-radius: 5%; 
 padding: 5%;
 background-color: white;
 }
