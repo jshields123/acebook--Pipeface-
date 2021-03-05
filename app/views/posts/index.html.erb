@@ -1,6 +1,6 @@
 
 
-<div style="background-color: white; padding: 10px; font-family: 'DotGothic16';    width: fit-content; margin-left: 325px; border-radius: 9%;">
+<div style="background-color: white; padding: 10px; font-family: 'DotGothic16';    width: fit-content; margin: auto; border-radius: 9%; margin-bottom: 15px;">
   <%= link_to new_post_path do  %>
     New Post
   <% end %>
@@ -8,11 +8,12 @@
 
 <% @posts.reverse.each do |post| %>
 
-  <div class="box" style="width: 60%;">
-  <div class="card-body" style="margin: 20px;">
-      <h3 class="card-text"><%= post.message.gsub(/\n/, '<br/>').html_safe %></h3>
+  <div class="box" style="width: 60%; margin-bottom: 15px;">
+  <div class="card-body" style="border: groove; padding:100px; border-radius:5%; ">
+
+      <h3 class="card-text" ><%= post.message.gsub(/\n/, '<br/>').html_safe %></h3>
   <% if post.image.attached? %>
-<div style="width:400px; height:auto; margin-right:70px; padding-right:30px ">
+<div style="width:400px; height:auto; margin:auto; padding-right:30px ">
    <%= image_tag(post.image, style: "width: 100%") %>
 </div>
   <%end%>
@@ -33,7 +34,8 @@
 
   <%= link_to "Delete", post_path(post), method: :delete, data: { confirm: "Are you sure?" }%>
 
-  <h2>Comments</h2>
+  <br>
+  <br>
   <% post.comments.each do |comment| %>
     <p>
 
@@ -54,6 +56,6 @@
   </p>
   <% end %>
     </div>
-
 </div>
+
 <% end %>
