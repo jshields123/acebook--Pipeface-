@@ -1,5 +1,7 @@
 # AceBook - Pipeface
 
+<img src='./public/pipeface.png'/>
+
 REQUIRED INSTRUCTIONS:
 
 1. Fork this repository to `acebook-teamname` and customize
