@@ -1,6 +1,12 @@
 # AceBook - Pipeface
 
-<img src='./public/pipeface_screen1.png'/>
+<img src='./public/pipeface.png'/>
+
+
+### Project
+This project was created was undertaken as part of the Makers Academy Bootcamp and entailed working in a agile team environment, in 2 day sprints to deliver a facebook styled social media platform. The group decided on a pipeface character theme and developed our knowledge of Ruby, Ruby on Rails, RSpec, Bootstrap, CSS, CircleCI and we deployed the app via heroku. 
+
+We used [trello](https://trello.com/b/gaYU7Ys1/pipeface-acebook) to plan our sprints and tasks. We also used GitHub issues to track issues and resolve them accordingly. 
 
 REQUIRED INSTRUCTIONS:
 
