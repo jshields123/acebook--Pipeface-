@@ -4,9 +4,9 @@
 
 
 ### Project
-This project was created was undertaken as part of the Makers Academy Bootcamp and entailed working in a agile team environment, in 2 day sprints to deliver a facebook styled social media platform. The group decided on a pipeface character theme and developed our knowledge of Ruby, Ruby on Rails, RSpec, Bootstrap, CSS, CircleCI and we deployed the app via heroku. 
+This project was created was undertaken as part of the Makers Academy Bootcamp and entailed working in a group of 5, in an agile environment that last for 2 weeks. We worked in 2 day sprints to deliver a facebook styled social media platform. The group decided on a pipeface character theme and developed our knowledge of Ruby, Ruby on Rails, RSpec, Bootstrap, CSS, CircleCI and we deployed the app via Heroku. The project was centered around implementing CRUD functionality to an application and the biggest challenges faced were around familiarizing ourselves with Rails (no prior working knowledge), deploying to Heroku (first time deploying) and CircleCI integration. 
 
-We used [trello](https://trello.com/b/gaYU7Ys1/pipeface-acebook) to plan our sprints and tasks. We also used GitHub issues to track issues and resolve them accordingly. 
+We used [Trello](https://trello.com/b/gaYU7Ys1/pipeface-acebook) to plan our sprints and tasks. We also used GitHub issues to track issues and resolve them accordingly. The image above is a screenshot taken from the view a logged in user and the display of their feed.
 
 REQUIRED INSTRUCTIONS:
 
